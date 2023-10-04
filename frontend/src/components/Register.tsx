@@ -8,19 +8,10 @@ function Register(){
 
     return(
         <form onSubmit={HandleRegister}>
-            <label>
-                Username:
-                <input type="text" name="username" />
-            </label>
-            <label>
-                Email:
-                <input type="email" name="email" />
-            </label>
-            <label>
-                Password:
-                <input type="password" name="password" />
-            </label>
-            <input type="submit" value="Submit" />
+            <label> Username: <input type="text" name="username"/> </label>
+            <label> Email: <input type="email" name="email"/> </label>
+            <label> Password: <input type="password" name="password"/> </label>
+            <input type="submit" value="Submit"/>
         </form>
     )
 }
